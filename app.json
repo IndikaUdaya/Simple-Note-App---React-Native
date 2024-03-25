@@ -3,11 +3,12 @@
     "name": "MyNotes",
     "slug": "MyNotes",
     "version": "1.0.0",
+    "description": "This is a MyNote simple app and Testing version",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/notebook_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +20,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.indikaudaya.MyNotes"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a62bac18-3ec6-4d05-9142-6a0aaa2beadf"
+      }
     }
   }
 }
