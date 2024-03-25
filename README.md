@@ -1,1 +1,1 @@
-"# Simple-Note-App---React-Native" 
+Simple Note App
